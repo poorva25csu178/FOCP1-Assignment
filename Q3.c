@@ -5,7 +5,6 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
-    // Using bitwise operators
     while (b != 0) {
         unsigned borrow = (~a) & b;
         a = a ^ b;
